@@ -1,12 +1,15 @@
 import './App.css'
-import CityListPage from './pages/CityListPage/CityListPage'
+
+import CityViewPage from './pages/CityViewPage/CityViewPage'
 
 function App() {
   
 
   return (
-      <CityListPage/>
-    
+
+    <>
+      <CityViewPage/>
+    </>
   )
 }
 

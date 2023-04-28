@@ -18,5 +18,8 @@
       "withStyle": true,
       "withTest": false
     }
+
   }
+  },
+  "usesStyledComponents": false
 }
