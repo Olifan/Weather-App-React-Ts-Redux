@@ -5,14 +5,14 @@ interface CityViewPageProps {}
 
 const CityViewPage: FC<CityViewPageProps> = () => (
   <div>
-  <div className={styles.container}>
-    <div className={styles.header}>
+  <div className="container">
+    <div className="header">
       <h1>Simple Weather App</h1>
     </div>
   </div>
 
-  <div className={styles.container}>
-    <div className={styles.footer}>
+  <div className="container">
+    <div className="footer">
       <p>Made with <span>❤</span> by Anton Olifan</p>
     </div>
   </div>
