@@ -1,11 +1,12 @@
 import './App.css'
+import CityViewPage from './pages/CityViewPage/CityViewPage'
 
 function App() {
   
 
   return (
     <>
-      <h1>Weather App on TypeScript with React + Redux</h1>
+      <CityViewPage/>
     </>
   )
 }
