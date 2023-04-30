@@ -1,5 +1,6 @@
 import React, { FC } from "react";
 import styles from "./CityListPage.module.css";
+import { Link } from "react-router-dom";
 
 interface CityListPageProps {}
 
@@ -10,7 +11,9 @@ const CityListPage: FC<CityListPageProps> = () => (
 				<h1>Simple Weather App</h1>
 			</div>
 		</div>
-
+		<Link to={`/cities/:kyiv`}>
+			<h3>Test Kyiv</h3>
+		</Link>
 		<div className="container">
 			<div className="footer">
 				<p>
