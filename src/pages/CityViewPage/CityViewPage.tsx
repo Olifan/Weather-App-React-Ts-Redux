@@ -1,5 +1,6 @@
 import React, { FC } from "react";
 import styles from "./CityViewPage.module.css";
+import { Link } from "react-router-dom";
 
 interface CityViewPageProps {}
 
@@ -10,6 +11,9 @@ const CityViewPage: FC<CityViewPageProps> = () => (
 				<h1>Simple Weather App</h1>
 			</div>
 		</div>
+		<Link to={`/cities`}>
+			<h3>Test to CityListPage</h3>
+		</Link>
 
 		<div className="container">
 			<div className="footer">
