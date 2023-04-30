@@ -11,7 +11,7 @@ const CityListPage: FC<CityListPageProps> = () => (
 				<h1>Simple Weather App</h1>
 			</div>
 		</div>
-		<Link to={`/cities/:kyiv`}>
+		<Link to={`/cities/kyiv`}>
 			<h3>Test to Kyiv</h3>
 		</Link>
 		<div className="container">
