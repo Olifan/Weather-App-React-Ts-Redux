@@ -11,7 +11,7 @@ const CityViewPage: FC<CityViewPageProps> = () => (
 				<h1>Simple Weather App</h1>
 			</div>
 		</div>
-		<Link to={`/cities`}>
+		<Link to={`/`}>
 			<h3>Test to CityListPage</h3>
 		</Link>
 

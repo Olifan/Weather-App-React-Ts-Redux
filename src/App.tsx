@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/cities' element={<CityListPage/>}></Route>
+        <Route path='/' element={<CityListPage/>}></Route>
         <Route path='/cities/:name' element={<CityViewPage/>}></Route>
       </Routes>
     </Router>  

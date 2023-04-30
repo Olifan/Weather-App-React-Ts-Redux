@@ -12,7 +12,7 @@ const CityListPage: FC<CityListPageProps> = () => (
 			</div>
 		</div>
 		<Link to={`/cities/:kyiv`}>
-			<h3>Test Kyiv</h3>
+			<h3>Test to Kyiv</h3>
 		</Link>
 		<div className="container">
 			<div className="footer">
