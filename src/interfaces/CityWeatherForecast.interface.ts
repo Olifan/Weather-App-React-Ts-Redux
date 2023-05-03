@@ -36,7 +36,7 @@
     sunset: number;
   }
   
-  interface CityWeatherForecast {
+  export interface CityWeatherForecast {
     coord: Coord;
     weather: Weather[];
     base: string;
