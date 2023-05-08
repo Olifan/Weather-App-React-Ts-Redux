@@ -1,12 +1,23 @@
-import React, { FC } from 'react';
-import styles from './CityCartComponent.module.scss';
+import React from "react";
+import styles from "./CityCartComponent.module.scss";
 
-interface CityCartComponentProps {}
-
-const CityCartComponent: FC<CityCartComponentProps> = () => (
-  <div className={styles.CityCartComponent}>
-    CityCartComponent Component
-  </div>
-);
+const CityCartComponent = () => {
+	return (
+		<div className="cards">
+			<div className="city">
+				<span>Kyiv</span>
+				<sup>UA</sup>
+			</div>
+			<div className="temp">
+				13
+				<sup>°C</sup>
+			</div>
+			<div className="weather">
+				<img className="icon" src="" alt="icon" />
+				<span>Sunny</span>
+			</div>
+		</div>
+	);
+};
 
 export default CityCartComponent;
